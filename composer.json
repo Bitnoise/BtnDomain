@@ -1,0 +1,41 @@
+{
+  "name": "bitnoise/domain",
+  "type": "symfony-bundle",
+  "description": "The BtnDomain makes us (bitnoi.se team) happy",
+  "keywords": [
+    "bitnoise",
+    "utilities"
+  ],
+  "homepage": "https://github.com/Bitnoise/BtnDomain",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Bitnoise Team",
+      "homepage": "http://www.bitnoi.se/",
+      "email": "labs@bitnoi.se"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "beberlei/assert": "~2.0",
+    "simple-bus/message-bus": "~2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://bitnoise.github.io/packages/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Btn\\Domain\\": "src/Btn/Domain/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-1.0": "1.0-dev"
+    }
+  }
+}
