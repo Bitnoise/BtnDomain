@@ -22,12 +22,6 @@
     "beberlei/assert": "~2.0",
     "simple-bus/message-bus": "~2.0"
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://bitnoise.github.io/packages/"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Btn\\Domain\\": "src/Btn/Domain/"
